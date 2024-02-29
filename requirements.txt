@@ -1,0 +1,5 @@
+bio
+openai
+langchain
+tiktoken
+faiss-cpu
