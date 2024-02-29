@@ -16,7 +16,7 @@ from pubmedreadLLM import*
 
 
 
-isDevt = 1
+isDevt = 0
 
 #-------------------------------------------------------------------
 start_time = time.time()
