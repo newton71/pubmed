@@ -66,7 +66,7 @@ def call_llm(abstracts, question, query, openai_api_key, isDevt):
   
         # Q&A chain
 #        m = 'gpt-3.5-turbo-instruct'
-        chain = load_qa_chain(OpenAI(temperature = 0.3, model = 'gpt-3.5-turbo-instruct', openai_api_key = openai_api_key), chain_type="stuff")
+        chain = load_qa_chain(OpenAI(temperature = 0, model = 'gpt-3.5-turbo-instruct', openai_api_key = openai_api_key), chain_type="stuff")
         
         # to store the chunk that is similar to the query
         docs = num_queries*[None] 
