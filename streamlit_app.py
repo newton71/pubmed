@@ -32,7 +32,7 @@ st.set_page_config(
     layout="wide",  # Use "wide" layout for a wider page
 )
 
-st.title("PubMed Abstracts Summary")
+st.title("Summarising PubMed Abstracts")
 
 pane1, pane2 = st.columns(2)
 
