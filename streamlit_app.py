@@ -97,7 +97,7 @@ with pane1:
         
     # Get user input for text string
     question = st.text_input("What is your question? e.g. Is universal screening for MRSA effective?")
-    query = st.text_input("Enter PubMed query e.g. 'universal screening' [title] MRSA")
+    query = st.text_input("Enter PubMed query e.g. 'universal screening' [title] AND MRSA")
     
     
     # max num of abstracts to extracted
