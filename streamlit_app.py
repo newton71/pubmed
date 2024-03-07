@@ -28,7 +28,7 @@ else:
 
 
 st.set_page_config(
-    page_title="Pubmed abstract summary",
+    page_title="Summarising Pubmed abstracts",
     layout="wide",  # Use "wide" layout for a wider page
 )
 
